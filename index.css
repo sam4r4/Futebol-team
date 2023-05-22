@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200;1,300&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(255, 255, 255);
+}
+body{
+  background-image: url('fut_11zon.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+h1{
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  font-weight: 400;
+  font-size: 39px;
+}
+
+.box{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+  
+  
+}
+
+.addplayer{
+  display: flex;
+  align-items:flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 30px;
+  gap: 20px;
+  font-size: 17px;
+}
+
+.removePlayer{
+  display: flex;
+  align-items:flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+  gap: 20px;
+  font-size: 17px;
+}
+
+#name{
+  margin-left: 15px;
+}
+
+button{
+  height: 30px;
+  width: 80px;
+  font-size: 17px;
+  background-color: transparent;
+  border-radius: 17px;
+  border-color: rgb(255, 255, 255);
+  margin-left: 20px;
+  
+}
+.time{
+  padding-top: 15px;
+}
+
+input{
+  background-color: transparent;
+  border-color: transparent;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  color: rgb(199, 181, 181);
+  font-size: 17px;
+}
+

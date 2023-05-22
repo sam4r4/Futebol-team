@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timedefutebol</title>
+  <script src="index.js"></script>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <h1>Escalação do Time</h1>
+
+  <div class="box">
+  <div class="addplayer">
+    <h2>Escalar Jogador</h2>
+  <p>
+    <label for="position">Posição:</label>
+    <input type="text" id="position">
+    <br>
+    <label for="name">Nome:</label>
+    <input type="text" id="name">
+    <br>
+    <label for="number">Número:</label>
+    <input type="number" id="number">
+    <button onclick="addPlayer()">Escalar</button>
+  </p>
+  </div>
+
+  <div class="removePlayer">
+    <h2>Remover Jogador</h2>
+    <p>
+      <label for="numberToRemove">Número:</label>
+      <input type="number" id="numberToRemove">
+      <button onclick="removePlayer()">Remover</button>
+    </p>
+  </div>
+
+  <div class="time">
+    <h2>Time:</h2>
+  <ul id="team-list"></ul>
+  </div>
+</div>
+</body>
+</html>
